@@ -36,7 +36,7 @@ arduino_i2c: &i2c1 {
   
     ssd1306: ssd1306@3c {
         compatible = "solomon,ssd1306fb";
-        reg = <0x3c>; //0x3c is the i2c address of the SSD1306 aIC.
+        reg = <0x3c>; //0x3c is the i2c address of the SSD1306 IC.
         width = <128>; // Width of the display.
         height = <32>; // Height of the display. Change to '64' when using the 128x64 pixel version.
         segment-offset = <0>;
